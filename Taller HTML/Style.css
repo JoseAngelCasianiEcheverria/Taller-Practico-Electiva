@@ -1,5 +1,5 @@
 body {
-    font-family:cursive;
+    font-family: italic;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -101,6 +101,6 @@ footer p{
     padding: 15px;
     color: grey;
     font-weight: bold;
-    font-family: 2em;
+    font-family: 2px;
  
  }
