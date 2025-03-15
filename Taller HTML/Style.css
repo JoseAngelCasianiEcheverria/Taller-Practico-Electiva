@@ -1,0 +1,106 @@
+body {
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #edececf5;
+}
+
+ .logo-Titulo{
+    margin: 40px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nosotros {
+    margin: 40px 20px;
+    font-style: italic;
+}
+
+.nosotros h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: black;
+}
+
+.carta {
+    width: 200px;
+    background-image: linear-gradient( /* Agregando un color de fondo para la imagen */
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.3)
+        );
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.carta img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carta h3 {
+    margin: 10px 0;
+}
+
+button {
+    background: rgb(7, 159, 108);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: rgb(2, 111, 76);
+}
+
+footer p{
+    padding: 15px;
+    color: grey;
+    font-weight: bold;
+    font-family: 2em;
+ 
+ }
